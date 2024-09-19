@@ -1,0 +1,7 @@
+[input]
+method = pulse
+;source = hw:0
+
+[color]
+foreground = '#8fbcbb'
+

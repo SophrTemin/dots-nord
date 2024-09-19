@@ -1,0 +1,20 @@
+{
+	"include": "~/.config/hypr/waybar/modules",
+	"position": "bottom",
+	"margin-bottom": 10,
+	"height": 34,
+	"width": 800, 
+	"spacing": 7,
+
+	"modules-left":[
+	"pulseaudio",
+	"hyprland/language",
+	],
+	"modules-center":[
+	"custom/clock",
+	"cava",
+	],
+	"modules-right":[
+	"hyprland/workspaces",
+	],
+}

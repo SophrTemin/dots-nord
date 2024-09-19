@@ -1,0 +1,10 @@
+width=360
+height=250
+no_actions=true
+hide_scroll=true
+columns=1
+image_size=20
+prompt=Поиск
+term=kitty
+lines=8 
+location=0 

@@ -1,0 +1,5 @@
+# PyRadio User Configuration File
+# To get a full list of options execute: pyradio -pc
+# or examine the file: /usr/lib/python3.11/site-packages/pyradio/config
+#
+theme = nordic-sophron

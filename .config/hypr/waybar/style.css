@@ -1,0 +1,63 @@
+/*-Основные настройки для всех модулей-*/
+* {
+	font-family: "JetBrains Mono Medium", "Symbols Nerd Font";
+	font-size: 13px;
+	padding: 1px;
+}
+/*-настройки бара/панели-*/
+window#waybar {
+	background: rgba(46,52,64,1);
+	border: 1px solid #8fbcbb;
+	border-radius: 25px;
+}
+
+/*-Настройка кнопок воркспейса-*/
+#workspaces button.visible,
+#workspaces button.empty,
+#workspaces button.persistent,
+#workspaces button.active {
+	color: #4c566a;
+}
+#workspaces button.urgent {
+	color: #88c0d0;
+}
+
+/*-Общая настройка для 3 модулей-*/
+.modules-left,
+.modules-center,
+#workspaces {
+	margin: 6px;
+	border-radius: 16px;
+	color: #4c566a;
+	padding: 2px;
+}
+
+/*-Настройка цвета/градиента-*/
+.modules-left {
+	background: rgb(136,192,208);
+	background: linear-gradient(0deg, rgba(136,192,208,1) 0%, rgba(143,188,187,1) 70%); 
+}
+
+.modules-center {
+	background: rgb(235,203,139);
+	background: linear-gradient(0deg, rgba(235,203,139,1) 0%, rgba(208,135,112,1) 100%);
+}
+
+#workspaces {
+	background: rgb(206,208,136);
+	background: linear-gradient(0deg, rgba(206,208,136,1) 0%, rgba(171,188,143,1) 70%); 
+}
+
+
+/*-Настройка пробелов-*/
+#hyprland-language,
+#workspaces,
+#cava {
+	padding-right: 6px;
+}
+
+#pulseaudio,
+#workspaces,
+#custom-clock {
+	padding-left: 6px;
+}

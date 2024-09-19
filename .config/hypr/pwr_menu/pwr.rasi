@@ -1,0 +1,32 @@
+configuration {
+    font: "JetBrains Mono 10";
+    line-margin: 10;
+
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
+    show-icons:     true;
+}
+
+
+@theme "~/.config/hypr/pwr_menu/pwr_nord.rasi"
+
+listview {
+	lines: 3;
+	columns: 1;
+}
+
+inputbar {
+	enabled: false;
+}
+
+prompt {
+	enabled: false;
+}
+
+window {
+	width: 10%;
+}
+
